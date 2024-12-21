@@ -1,0 +1,12 @@
+version: "3"
+
+
+services:
+  mondodb:
+    image: "mongodb"
+
+  metacritic-scraper:
+    image: "metacritic"
+
+  wayback-machine-scraper:
+    image: "wayback-machine"
