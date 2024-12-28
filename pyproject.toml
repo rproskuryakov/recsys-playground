@@ -2,28 +2,20 @@
 name = "recsys-playground"
 version = "0.1.0"
 description = ""
-authors = ["Rodion Proskuryakov <rproskuryakov.job@gmail.com>"]
-license = "MIT"
+authors = ["rproskuryakov <noisyrave@gmail.com>"]
 readme = "README.md"
-packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
-jupyter = "^1.0.0"
-numpy = "^1.25.2"
-scipy = "^1.11.1"
-matplotlib = "^3.7.2"
-seaborn = "^0.12.2"
-scikit-learn = "^1.3.0"
-torch = "^2.0.1"
-requests = "^2.31.0"
-sqlalchemy = "^2.0.19"
-pandas = "^2.0.3"
+python = "^3.10"
 
-[tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
-mypy = "^1.4.1"
-pre-commit = "^3.3.3"
+
+[tool.poetry.group.experiments.dependencies]
+numpy = "^2.2.1"
+scipy = "^1.14.1"
+pandas = "^2.2.3"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+jupyter = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]
